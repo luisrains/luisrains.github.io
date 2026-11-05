@@ -304,7 +304,7 @@
           <h3>Metodología</h3>
           <p>Impulsé el desarrollo guiado por specs con IA: spec, plan, tareas, unidades de trabajo y review, a partir del PRD y el RFC.</p>
           <ul>
-            <li>Pilotos en historial de backoffice, pagos a proveedores y migración de contactos.</li>
+            <li>Pilotos en historial de backoffice y migración de contactos.</li>
             <li>Instrucciones y skills por repo para Copilot y Cursor.</li>
             <li>Licencias, capacitación y un champion de GenAI en el equipo.</li>
           </ul>
@@ -359,7 +359,7 @@
     { d: "Abr-2026", c: "Plataforma", t: "Nuevo motor de autorizaciones al 100%", p: "Workflow de firmantes y aprobaciones de empresas sobre la nueva plataforma.", m: ["<b>100%</b> de las empresas"], demo: "emp-auth" },
     { d: "Abr-2026", c: "Normativo", t: "Cambio regulatorio de límites en 12 horas", p: "El regulador subió el límite de los pagos instantáneos de 5 a 10 millones de Gs. Lo implementamos en web y app junto con el equipo de Core en medio día.", m: ["<b>12 horas</b>", "sin impacto productivo"] },
     { d: "May-2026", c: "Plataforma", t: "Solicitudes de pago y devoluciones fuera del legado", p: "APIs propias para solicitudes de pago y devoluciones, con experiencia en la nueva web.", m: ["<b>100%</b> de los flujos desacoplados"] },
-    { d: "May–Sep 2026", c: "IA", t: "Desarrollo guiado por specs", p: "Framework de specs con IA (spec, plan, tareas y review) en pilotos de backoffice, pagos a proveedores y migración de datos.", m: ["<b>3</b> repos piloto"] },
+    { d: "May–Sep 2026", c: "IA", t: "Desarrollo guiado por specs", p: "Framework de specs con IA (spec, plan, tareas y review) en pilotos de backoffice y migración de datos.", m: ["<b>2</b> repos piloto"] },
     { d: "Jul-2026", c: "Plataforma", t: "Capa de experiencia entre BFF y Core", p: "Una API de experiencia con control y persistencia propios del squad. Las features nuevas dejan de depender del roadmap del Core.", m: ["Habilita historial, repetir y dividir gastos"] },
     { d: "Jul-2026", c: "Feature", t: "Registrar y autorizar en un solo paso", p: "Antes, registrar y firmar eran dos momentos distintos. Ahora el firmante lo resuelve en la misma pantalla.", m: ["<b>~40%</b> resueltas en un paso", "<b>50%</b> aprobadas en menos de 1 min", "<b>80%</b> en menos de 5 min"], demo: "emp-auth" },
     { d: "Jul-2026", c: "Feature", t: "Historial, repetir y push para individuos", p: "El historial y repetir llegan a la app de individuos, junto con notificaciones push de transferencias.", m: ["Rollout progresivo"], demo: "ind-repeat" },
@@ -801,7 +801,7 @@
     ["contacts", "Contactos", "Java · NoSQL", 3, "squad", "Agenda de contactos y cuentas destino.", []],
     ["payreq", "Solicitudes de pago", "Kotlin · Spring Boot", 3, "squad", "Solicitudes de pago entre clientes.", ["Desacoplada del legado"]],
     ["refunds", "Devoluciones", "Kotlin · Spring Boot", 3, "squad", "Ejecución y consulta de devoluciones.", []],
-    ["emppay", "Pagos a proveedores", "Java · Spring Boot", 3, "squad", "Pagos a proveedores para empresas.", ["Desarrollada con specs asistidas por IA"]],
+    ["emppay", "Pagos a proveedores", "Java · Spring Boot", 3, "squad", "Pagos a proveedores para empresas.", []],
     ["push", "Notificaciones", "Kotlin · eventos", 3, "squad", "Consume eventos de transferencias y notifica sin duplicar por estado final.", []],
     ["bo-api", "Backoffice API", "Kotlin · Spring Boot", 3, "squad", "Consultas y operaciones de backoffice.", []],
     ["core", "Core de transferencias", "Arquitectura hexagonal", 4, "colab", "Motor de transferencias internas e interbancarias con antifraude e idempotencia. Lo opera otro squad.", []],
